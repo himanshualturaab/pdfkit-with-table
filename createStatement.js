@@ -1,7 +1,6 @@
 var PdfTable = require("voilab-pdf-table");
 const PDFDocument = require("pdfkit");
 const fs = require("fs");
-// const { width } = require("pdfkit/js/page");
 
 function createStatement(invoice, path) {
   let doc = new PDFDocument({ size: "A4", margin: 10 });
